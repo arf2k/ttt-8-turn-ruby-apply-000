@@ -7,6 +7,10 @@ puts "Welcome to Tic Tac Toe!"
 
 display_board(board)
 
+index = input_to_index(input)
+
+move(board, index)
+
 turn(board)
 turn(board)
 turn(board)
