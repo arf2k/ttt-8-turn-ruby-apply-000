@@ -8,7 +8,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  user_input = get.strip 
+  user_input = gets.strip 
 end 
 
 def input_to_index(user_input)
